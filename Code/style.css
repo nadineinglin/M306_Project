@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    font-family: september, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.jumbotron{
+    background-color: #fff;
+    padding:20px;
+    display:block;
+}
+
+h2{
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+.sub{
+    border-top-right-radius: 30;
+    border-top-left-radius: 30;
+    border-bottom-right-radius:30;
+    border-bottom-left-radius: 30;
+}
+
+#scissor{
+    display: inline;
+    width: 300px;
+}
+
+#paper{
+    display: inline;
+    width: 300px;
+}
+
+#rock{
+   display: inline;
+   width: 300px;
+}

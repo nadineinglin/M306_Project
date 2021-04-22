@@ -15,6 +15,8 @@
         <br>
         <br>
         <br>
+        <br>
+        <br>
         <div class="row">
             <div class="col-sm-2">
                 <h2>Regeln:</h2>
@@ -22,10 +24,10 @@
             </div>
             <div class="col-sm-2"></div>
             <div class="jumbotron col-sm-4">
-                <div class="">
-                <h1>Login</h1>
+                <div class="center">
+                <h1>LOGIN</h1>
                 <form action="?">
-                    <input type="text">
+                    <input class="username" type="text" placeholder="Benutzername" required>
                     <br>
                     <button type="submit" class="sub">Los geht's!</button>
                 </form>
@@ -34,14 +36,18 @@
     </div>
     <div class="container-fluid">
         <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-lg-4 center">
                 <input id="paper" type="image" src="/icon/papier.png" alt="paper">
             </div>
-            <div class="col-sm-4">
+            <div class="col-lg-4 center">
                 <input id="scissor" type="image" src="/icon/schere.png" alt="scissor">   
             </div>
-            <div class="col-sm-4">
+            <div class="col-lg-4 center">
                 <input  id="rock"type="image" src="/icon/stein.png" alt="rock">    
             </div>
         </div>

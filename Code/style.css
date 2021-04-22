@@ -6,9 +6,17 @@ body{
 }
 
 .jumbotron{
-    background-color: #fff;
-    padding:20px;
-    display:block;
+    background-color: #d6d6d6;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    display: block;
+}
+
+h1 {
+    color: #828282;
+    padding-bottom: 25px;
 }
 
 h2{
@@ -19,12 +27,34 @@ p{
     color: #fff;
 }
 
-.sub{
-    border-top-right-radius: 30;
-    border-top-left-radius: 30;
-    border-bottom-right-radius:30;
-    border-bottom-left-radius: 30;
+.center {
+    text-align: center;
+
 }
+
+.username {
+    width: 80%;
+    border: #828282;
+}
+
+.username::placeholder{
+    padding-left: 3px;
+    color:#888585;
+}
+
+.sub{
+    border: none;
+    margin-top: 35px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #828282;
+    color: #d6d6d6;
+    font-size: 25px;
+    border-radius: 30px;
+    
+}
+
 
 #scissor{
     display: inline;
@@ -40,3 +70,5 @@ p{
    display: inline;
    width: 300px;
 }
+
+

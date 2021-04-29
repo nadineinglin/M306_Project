@@ -10,14 +10,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row">
+    <div class="container" id="login-container">
+        <div class="row space">
             <div class="col-sm-2">
                 <h2>Regeln:</h2>
                 <p>Sobald der Spieler 3x hintereinander verliert ist das Spiel vorbei</p>
@@ -26,21 +20,16 @@
             <div class="jumbotron col-sm-4">
                 <div class="center">
                 <h1>LOGIN</h1>
-                <form action="?">
-                    <input class="username" type="text" placeholder="Benutzername" required>
+                <form>
+                    <input class="username" type="text" placeholder="Benutzername">
                     <br>
-                    <button type="submit" class="sub">Los geht's!</button>
+                    <button type="submit" class="sub" id="login-button">Los geht's!</button>
                 </form>
             </div>
         </div>
     </div>
     <div class="container-fluid">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row">
+        <div class="row space">
             <div class="col-lg-4 center">
                 <input id="paper" type="image" src="/icon/papier.png" alt="paper">
             </div>
@@ -53,6 +42,6 @@
         </div>
     </div>    
         
-        
+<script src="logic.js"></script>        
 </body>
 </html>

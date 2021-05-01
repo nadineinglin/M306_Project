@@ -13,14 +13,15 @@
     <div class="container" id="login-container">
         <div class="row space">
             <div class="col-sm-2">
-                <h2>Regeln:</h2>
+                <br>
+                <h2 class="index-h2">REGELN:</h2>
                 <p>Sobald der Spieler 3x hintereinander verliert ist das Spiel vorbei</p>
             </div>
             <div class="col-sm-2"></div>
             <div class="jumbotron col-sm-4">
                 <div class="center">
                 <h1>LOGIN</h1>
-                <form>
+                <form action="game.php">
                     <input class="username" type="text" placeholder="Benutzername">
                     <br>
                     <button type="submit" class="sub" id="login-button">Los geht's!</button>
@@ -41,7 +42,7 @@
             </div>
         </div>
     </div>    
-        
+
 <script src="logic.js"></script>        
 </body>
 </html>

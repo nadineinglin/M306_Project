@@ -17,8 +17,8 @@
                 <h2 class="index-h2">REGELN:</h2>
                 <p>Sobald der Spieler 3x hintereinander verliert ist das Spiel vorbei</p>
             </div>
-            <div class="col-sm-2"></div>
-            <div class="jumbotron col-sm-4">
+            <div class="col-sm-1"></div>
+            <div class="jumbotron col-sm-6">
                 <div class="center">
                 <h1>LOGIN</h1>
                 <form action="game.php">

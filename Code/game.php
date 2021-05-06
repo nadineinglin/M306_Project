@@ -11,20 +11,25 @@
 <body>
     <div class="container center">
         <h2>Bot</h2>
-        <p>Wählt "x"</p>
+        <p id="ausgabe"></p>
+
     </div>
       <div class="container">
         <div class="row space">
             <div class="col-lg-4 center">
-                <input id="paper" type="image" src="/icon/papier.png" alt="paper">
+                <input onclick="spielen('papier')" id="paper" type="image" src="/icon/papier.png" alt="paper">
             </div>
             <div class="col-lg-4 center">
-                <input id="scissor" type="image" src="/icon/schere.png" alt="scissor">   
+                <input onclick="spielen('schere')" id="scissor" type="image" src="/icon/schere.png" alt="scissor">   
             </div>
             <div class="col-lg-4 center">
-                <input  id="rock"type="image" src="/icon/stein.png" alt="rock">    
+                <input onclick="spielen('stein')"id="rock"type="image" src="/icon/stein.png" alt="rock">    
             </div>
+
+            <p class="center" id="ergebnis">Spieler: 0 / Computer: 0</p>
+
         </div>
     </div>    
+    <script src="logic.js"></script>
 </body>
 </html>

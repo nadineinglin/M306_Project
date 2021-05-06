@@ -86,3 +86,12 @@ var spielen = function (spielerAuswahl) {
 	displayErgebnis(ergebnis);
   
 };
+
+
+// if () {
+
+// }
+
+// else {
+
+// }
